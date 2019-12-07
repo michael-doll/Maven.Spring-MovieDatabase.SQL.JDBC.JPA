@@ -54,5 +54,8 @@ Values(
           8.1,
           'G'
       );
-
+/*Create a query to find all movies in the Sci-Fi genre. */
+SELECT * FROM Movies WHERE GENRE = 'Sci-Fi';
+/*Create a query to find all movies in the Sci-Fi genre. */
+SELECT * FROM Movies WHERE ImdbScore>=6.5;
 
